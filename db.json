@@ -1,0 +1,26 @@
+{
+    "events": [
+      {
+        "id": 1,
+        "title": "Tech Conference 2024",
+        "date": "2024-05-15",
+        "location": "New York City, NY",
+        "description": "A conference about the latest in technology and innovation."
+      },
+      {
+        "id": 2,
+        "title": "Music Festival",
+        "date": "2024-06-20",
+        "location": "Los Angeles, CA",
+        "description": "A festival featuring live music from various genres."
+      },
+      {
+        "id": 3,
+        "title": "Art Exhibition",
+        "date": "2024-07-10",
+        "location": "San Francisco, CA",
+        "description": "An exhibition showcasing contemporary art from local artists."
+      }
+    ]
+  }
+  
