@@ -1,70 +1,116 @@
-# Getting Started with Create React App
+# Events Booking Application
+## Description
+The Events Booking Application is a single-page web application built with React. It allows users to browse events, view details, book tickets, and manage their profiles. The app features protected routes for authenticated users and includes essential functionalities such as user authentication and profile management.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## File Structure
 
-## Available Scripts
+- src/
+-- components/
+   -- HomePage.js
+   -- AboutPage.js
+   -- EventList.js
+   -- EventDetail.js
+   -- LoginPage.js
+   -- RegisterPage.js
+   -- UserProfile.js
+   -- BookingPage.js
+   -- OrderHistory.js
+   -- Settings.js
+   -- Navbar.js
+   -- ProtectedRoute.js
+-- pages/
+   -- HomePage.js
+   -- AboutPage.js
+   -- EventListPage.js
+   -- EventDetailPage.js
+   -- LoginPage.js
+   -- RegisterPage.js
+   -- UserProfilePage.js
+   -- BookingPage.js
+   -- OrderHistoryPage.js
+   -- SettingsPage.js
+-- App.js
+-- index.js
+-- routes.js
+-- public/
+   -- index.html
+-- .gitignore
+-- package.json
+-- README.md
 
-In the project directory, you can run:
+## Team Members and Assignments
+### Stephen Kimani
+Components:
 
-### `npm start`
+Navbar.js - Implement the navigation bar for routing between different pages.
+ProtectedRoute.js - Create a component for handling protected routes that require authentication.
+Routes:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+/profile - Implement the route for user profiles and ensure it is protected.
+/book - Implement the route for booking events and ensure it is protected.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Sandra Banchiri
+Components:
 
-### `npm test`
+HomePage.js - Design and implement the homepage with key information and navigation links.
+AboutPage.js - Design and implement the About page with information about the application.
+Routes:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+/ (Home) - Implement the homepage route and ensure it renders HomePage.
+/about - Implement the About page route and ensure it renders AboutPage.
 
-### `npm run build`
+### Magret Ndungu
+Components:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+EventList.js - Implement the component that lists all available events.
+EventDetail.js - Implement the component that shows details for a selected event.
+Routes:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+/events - Implement the route for listing events and ensure it renders EventList.
+/events/:id - Implement the route for viewing event details and ensure it renders EventDetail.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Taban Chol
+Components:
 
-### `npm run eject`
+LoginPage.js - Design and implement the login page.
+RegisterPage.js - Design and implement the registration page.
+Routes:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+/login - Implement the login route and ensure it renders LoginPage.
+/register - Implement the registration route and ensure it renders RegisterPage.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Stephen Kimani (Additional Tasks)
+Components:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+UserProfile.js - Implement the user profile component to display user information and allow profile management.
+BookingPage.js - Implement the booking page component where users can book tickets for events.
+Routes:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+/orders - Implement the route for viewing the order history and ensure it is protected.
+/settings - Implement the route for user settings and ensure it is protected.
 
-## Learn More
+## Getting Started
+Clone the Repository:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+git clone <git@github.com:Stephen2Kim/events-pro.git>
+Navigate to the Project Directory:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+cd events-booking-application
+Install Dependencies:
 
-### Code Splitting
+npm install
+Start the Development Server:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+npm start
+Open the Application:
 
-### Analyzing the Bundle Size
+Visit http://localhost:3000 in your browser to view the application.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### Contributing
 
-### Making a Progressive Web App
+Please follow the project structure and adhere to the coding standards.
+Create feature branches for any new development work.
+Submit pull requests with a detailed description of changes made.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## License
+This project will be licensed under the MIT License - see the LICENSE file for details.
