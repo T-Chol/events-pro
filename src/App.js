@@ -5,13 +5,13 @@ import HomePage from './components/HomePage';
 import AboutPage from './components/AboutPage';
 import EventList from './components/EventList';
 import EventDetail from './components/EventDetail';
-import LoginPage from './components/LoginPage';
 import RegisterPage from './components/RegisterPage';
-import UserProfile from './components/UserProfile';
 import BookingPage from './components/BookingPage';
-import OrderHistory from './components/OrderHistory';
-import Settings from './components/Settings';
-import ProtectedRoute from './components/ProtectedRoute';
+import ProtectedRoute from './components/ProtectedRoute'; 
+import LoginPage from './components/LoginPage'; //protected page
+import UserProfile from './components/UserProfile'; //protected page
+import OrderHistory from './components/OrderHistory'; //protected page
+import Settings from './components/Settings'; //protected page
 
 function App() {
   return (
